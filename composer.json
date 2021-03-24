@@ -19,7 +19,7 @@
         }
     ],
     "require": {
-        "dodo1708/maxmind-db-reader": "~1.8",
+        "dodo1708/maxmind-db-reader": "^1.10.1",
         "maxmind/web-service-common": "~0.8",
         "php": ">=7.2",
         "ext-json": "*"
