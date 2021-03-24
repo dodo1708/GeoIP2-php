@@ -1,10 +1,16 @@
 {
-    "name": "geoip2/geoip2",
+    "name": "dodo1708/geoip2",
     "description": "MaxMind GeoIP2 PHP API",
     "keywords": ["geoip", "geoip2", "geolocation", "ip", "maxmind"],
     "homepage": "https://github.com/maxmind/GeoIP2-php",
     "type": "library",
     "license": "Apache-2.0",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/dodo1708/MaxMind-DB-Reader-php.git"
+        }
+    ],
     "authors": [
         {
             "name": "Gregory J. Oschwald",
@@ -13,7 +19,7 @@
         }
     ],
     "require": {
-        "maxmind-db/reader": "~1.8",
+        "dodo1708/maxmind-db-reader": "~1.8",
         "maxmind/web-service-common": "~0.8",
         "php": ">=7.2",
         "ext-json": "*"
